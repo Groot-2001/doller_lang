@@ -1,0 +1,26 @@
+{
+  "name": "sbear",
+  "version": "1.0.0",
+  "description": "The programming language",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Groot-2001/doller_lang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Groot-2001/doller_lang/issues"
+  },
+  "homepage": "https://github.com/Groot-2001/doller_lang#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
