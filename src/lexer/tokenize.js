@@ -13,7 +13,18 @@ const tokenize = (input) =>{
     let cursor = 0;
     //loop
     while(cursor < input.length){
-        cursor++;
+        //cursor will track the current character in input string
+        const character = input[cursor];
+
+        //check for valid parenthesis
+        if(isParenthesis(character)){
+            token.push({
+                typeof:'params',
+                value:character,
+           });
+           cursor++;
+           continue;
+        }
     }
     return token;
 };
